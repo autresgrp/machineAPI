@@ -1,0 +1,16 @@
+*.isopen
+*.DS_Store
+*.csvlog*
+*.orig
+
+Output/*.exe
+ignored/
+
+Binaries/
+Diagnosis/
+Temp/
+
+/machineAPI/*.set
+/machineAPI/Logical/Documentation/RevInfo.var
+/machineAPI/Logical/Documentation/RevInfo/RevInfo.st
+/machineAPI/Logical/Documentation/RevInfo/Overload.var
