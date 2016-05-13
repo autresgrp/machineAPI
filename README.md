@@ -1,6 +1,6 @@
 # machineAPI
 
-Industrial connectivity to web service stacks done right. Get articulate machine data fast. Trivially easy to use.
+Industrial machine connectivity to web service stacks done right. Get and set highly articulate machine data. Trivially easy to use. And fast!
 
 Here's how you integrate via Websocket:
 ```javascript
