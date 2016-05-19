@@ -2,7 +2,7 @@
 
 Industrial machine connectivity to web service stacks done right.
 
-Example WebSocket integration via Javascript:
+WebSocket integration via Javascript:
 ```javascript
 var ws = new WebSocket("ws://127.0.0.1:8000");
 
