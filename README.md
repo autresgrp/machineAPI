@@ -1,8 +1,8 @@
 # machineAPI
 
-Industrial machine connectivity to web service stacks done right. Get and set highly articulate machine data. Trivially easy to use. And fast!
+Industrial machine connectivity to web service stacks done right.
 
-Here's how you integrate via Websocket:
+Example WebSocket integration via Javascript:
 ```javascript
 var ws = new WebSocket("ws://127.0.0.1:8000");
 
@@ -15,7 +15,7 @@ ws.onmessage = function (e) {
 	ws.close();
 };
 ```
-Here's what you can ask for:
+Here's what's available to read or write:
 
 ```
 EIPBytesFromPLC
