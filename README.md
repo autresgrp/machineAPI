@@ -15,13 +15,39 @@ ws.onmessage = function (e) {
 	ws.close();
 };
 ```
-Here's what's available to read or write:
+Here's the data available to read or write from the API side:
 
 ```
-EIPBytesFromPLC
-EIPBytesToPLC
-DigitalInputs
-DigitalOutputs
-AnalogInputs
+BridgeData.
+	DI[18]
+	DO[8]
+	AI[2]
+	Float[50]
+	Bool[50]
+	Int[50]
+
+FromPLC.
+	Real[50]
+	Int[50]
+	Bool[100]
+
+ToPLC.
+	Real[50]
+	Int[50]
+	Bool[100]
+
+BridgeStatus.	
+	APIVersion
+	FirmwareVersion
+	PLCOnline
+	MachineSideIP
+	webIP
+	Error.
+	   ErrorNumber
+	   ErrorDescription
+	Config.
+		NewWebIP
+		NewMachineSideIP
+
 Everything
 ```
