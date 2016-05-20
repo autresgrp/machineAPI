@@ -18,7 +18,7 @@ ws.onmessage = function (e) {
 Here's the data available to read or write from the API side:
 
 ```
-BridgeData.
+Bridge.
 	DI[18]
 	DO[8]
 	AI[2]
