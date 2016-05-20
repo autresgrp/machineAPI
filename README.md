@@ -27,12 +27,12 @@ Bridge.
 	Int[50]
 
 FromPLC.
-	Real[50]
+	Float[50]
 	Int[50]
 	Bool[100]
 
 ToPLC.
-	Real[50]
+	Float[50]
 	Int[50]
 	Bool[100]
 
@@ -41,10 +41,10 @@ BridgeStatus.
 	FirmwareVersion
 	PLCOnline
 	MachineSideIP
-	webIP
+	WebSideIP
 	Error.
-	   ErrorNumber
-	   ErrorDescription
+		ErrorNumber
+		ErrorDescription
 	Config.
 		NewWebIP
 		NewMachineSideIP
