@@ -2,18 +2,17 @@
 
 Industrial machine connectivity to web service stacks done right.
 
-##cURL
-###Request:
+### cURL Example Request:
 ```javascript
 curl --data '["bridgeIO.digitalInput[0]"]' http://10.0.1.1/var_read.cgi
 ```
-###Response:
+### Response:
 ```javascript
 [{"bridgeIO.digitalInput[0]":false}]
 ```
 
-##WebSocket integration via Javascript:
-###Request:
+## WebSocket integration via Javascript:
+### Request:
 ```javascript
 // Use websockets to read a variable
 
@@ -36,14 +35,14 @@ ws.onmessage = function (e) {
 	ws.close();
 };
 ```
-###Response:
+### Response:
 ```javascript
 {"type":"readresponse","data":[{"bridgeIO.digitalInput[0]":false}]}
 ```
 
-##Http integration with AJAX via Javascript:
+## Http integration with AJAX via Javascript:
 
-###Request:
+### Request:
 ```javascript
 // Use HTTP to read a variable-->
 // NOTE: For ajax to work it must be served from the bridge Server
@@ -82,7 +81,7 @@ $.ajax({
 	}
 });
 ```
-###Response:
+### Response:
 ```javascript
 [{"bridgeIO.digitalInput[0]":false}]
 ```
