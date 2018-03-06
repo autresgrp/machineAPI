@@ -40,7 +40,7 @@ ws.onmessage = function (e) {
 {"type":"readresponse","data":[{"bridgeIO.digitalInput[0]":false}]}
 ```
 
-## Http integration with AJAX via Javascript:
+## HTTP integration with AJAX via Javascript:
 
 ### Request:
 ```javascript
